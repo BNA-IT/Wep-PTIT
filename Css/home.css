@@ -180,7 +180,7 @@ html body{
     line-height: 12px;
 }
 .cinema button{
-    width: 100%;
+    width: 228px;
     height: 38px;
     color: #ffffff;
     font-size: 16px;
@@ -198,7 +198,7 @@ html body{
     font-weight: bold;
 }
 .cinema-item {
-	width: 100%;
+	width: 228px;
 	height: 360px;
 	border-radius: 20px;
 	overflow: hidden;
