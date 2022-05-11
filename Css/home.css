@@ -1,0 +1,309 @@
+html body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.nav-bar{
+    padding-top: 30px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    background-color: #25487B;
+    color: #ffffff;
+    padding: 0 10%;
+}
+.nav-bar a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo-navBar{
+    font-size: 45px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-weight: 900;
+    background-image: url("../img/32.png");
+    background-size: 100% 100%;
+}
+.text-logo{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+}
+.select-navBar{
+    color: #646464;
+    width: 11%;
+}
+.select-navBar select{
+    width: 100%;
+    border-radius: 18px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu-navBar ul{
+    display: flex;
+    margin: 0;
+}
+.menu-navBar ul li{
+    list-style-type: none;
+    font-size: 18px;
+    margin-right: 40px;
+    font-weight: 550;
+    cursor: pointer;
+    padding: 0;
+    transition: 0.5s;
+}
+.menu-navBar a{
+    color: #ffffff;
+}
+.menu-navBar ul li:hover{
+    transform: translateY(-8px);
+    
+}
+.signIn-navBar{
+    font-size: 18px;
+    font-weight: 550;
+}
+.slide-show{
+    margin-top: 15px;
+    border-top: 1px solid #B5B0C1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.slide-show .item{
+    height: 85vh;
+}
+.pic1{
+    background-image: url("https://ecdn.game4v.com/g4v-content/uploads/2021/04/Fast-9.jpg");
+    background-size: 100% 100%;
+}
+.pic2{
+    background-image: url("https://static2.vieon.vn/vieplay-image/thumbnail_big_v4/2021/07/15/of60z8v1_1920x1080-nguoinhenxanha_1267_712.jpg");
+    background-size: 100% 100%;
+}
+.pic3{
+    background-image: url("https://image-us.24h.com.vn/upload/2-2019/images/2019-05-04/1556964571-319-avengers-infinity-war-2-1556858276-width1280height720.jpg");
+    background-size: 100% 100%;
+}
+/* :root {
+	--primary-color: black;
+} */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+/* img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+    transition: 0.5s;
+} */
+
+
+
+.container {
+    width: 90%;
+    margin: 100px auto;
+	/* border-radius: 20px;
+	padding: 20px;
+	background-color: #e2f3e2;
+	margin: 100px auto;
+    margin-bottom: auto;
+	width: 1200px;
+	text-align: center; */
+}
+
+.cinema-menu {
+	margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cinema-menu button {
+	/* color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	padding: 10px 40px;
+	border-radius: 50px;
+	font-weight: 600;
+	transition: 0.25s;
+	cursor: pointer;
+	background-color: #fff;
+	margin: 5px; */
+    border: none;
+    background-color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 2px solid #B5B0C1;
+}
+
+.cinema-menu button:hover,
+.cinema-menu button.active {
+	color: #244C95;
+    border-bottom: 5px solid #244C95;
+}
+
+.cinema-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+    width: 100%;
+}
+.cinema{
+    width: 20%;
+    margin: 15px;
+	border-radius: 20px;
+	/* overflow: hidden; */
+    transition: 0.5s;
+}
+.cinema h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #244C95;
+}
+.cinema p{
+    line-height: 12px;
+}
+.cinema button{
+    width: 100%;
+    height: 38px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #0a64a7 0%, #258dcf 51%, #3db1f3 100%) !important;
+    margin-top: 23px;
+}
+.cinema button:hover{
+    background-position: right center;
+}
+.cinema span{
+    color: black;
+    font-weight: bold;
+}
+.cinema-item {
+	width: 100%;
+	height: 360px;
+	border-radius: 20px;
+	overflow: hidden;
+    margin-bottom: 25px;
+}
+
+/* .cinema-item:hover img{
+    transform: scale(2) rotate(90deg);
+} */
+
+.hide {
+	display: none;
+}
+.content-7{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #25487B;
+    padding-top: 80px;
+    position: relative;
+}
+.footer{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.footer-1{
+    width: 30%;
+}
+.footer-1 p{
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.bg-footer{
+    background-image: url("../assets/img/logo-backgroud-dark_.png");
+    background-size: 100% 100%;
+    width: 90%;
+    height: 9vh;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Permanent Marker', cursive;
+}
+.footer-2{
+    width: 20%;
+}
+.footer-2 h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer-2 ul{
+    list-style-type:none;
+}
+.content-7 ul{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.content-7 ul li{
+    line-height: 1.2cm;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.footer-3{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.chinh{
+    margin-top: 12px;
+}
+.vong-tron{
+    width: 42px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius:  50%;
+    margin-right: 15px;
+    text-align: center;
+   
+}
+
+.vong-tron:hover{
+    background-color: #000080;
+    color: #FFFFFF;
+}
+.vector-3{
+    width: 100%;
+    border-bottom:1px solid #C6C6C6;
+}
+.footer-withlove{
+    margin: auto;
+    width: 70%;
+    color: #ffffff;
+}
+.footer-withlove a{
+    text-decoration: none;
+    color:#3db1f3;
+}
+.footer-withlove a:hover{
+    text-decoration: none;
+    color:#3db1f3;
+}
+
