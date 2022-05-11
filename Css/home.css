@@ -105,13 +105,13 @@ html body{
 	font-family: sans-serif;
 }
 
-/* img {
-	width: 100%;
+.cinema-item img {
+	width: 100%; 
 	height: 100%;
-	object-fit: cover;
+	/* object-fit: cover;
 	object-position: center;
-    transition: 0.5s;
-} */
+    transition: 0.5s; */
+}
 
 
 
