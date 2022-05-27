@@ -1,21 +1,35 @@
-const cinemaBtns = document.querySelectorAll('.cinema-menu button')
-const cinemaList = document.querySelectorAll('.cinema')
 
-cinemaBtns.forEach((btn) => {
-	btn.addEventListener('click', (e) => {
-		const type = e.target.getAttribute('type-cinema')
+// xử lý fake api
+let api = "http://localhost:3000/profile";
 
-		// remove and set active fpr button
-		document
-			.querySelector('.cinema-menu button.active')
-			.classList.remove('active')
-		e.target.classList.add('active')
-
-		// filter elements
-		cinemaList.forEach((item) => {
-			if (type == 'all' || item.getAttribute('type-cinema') == type)
-				item.classList.remove('hide')
-			else item.classList.add('hide')
-		})
-	})
-})
+// fetch(api)
+// 	.then(function(response){
+// 		return response.json()
+// 	}). then(function(data){
+// 		// console.log(data);
+// 	})
+// show data
+function getAllData(callback){
+	fetch(api)
+	.then(function(response){
+		return response.json()
+	}). then(callback)
+}
+function data(){
+	getAllData(rederData);
+}
+// function rederData(datas){
+// 	let listItem = document.querySelector("#show-data");
+// 	let htmls = datas.map(function(data){
+// 		return `
+// 			<h2>${data.title}</h2>
+// 		`;
+// 	});
+// 	listItem.innerHTML = htmls.join('');
+// }
+// data();
+// console.log(cookieStore.get("cookie1").then(function(data){
+// 	console.log("data: ",data);
+// }))
+sessionStorage.setItem('test', "haha")
+		

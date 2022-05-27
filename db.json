@@ -1,0 +1,429 @@
+{
+  "profile": [
+    {
+      "id": 1,
+      "title": "hung dep trai"
+    },
+    {
+      "title": "ábdjasbdjsad",
+      "id": 2
+    }
+  ],
+  "cinema": [
+    {
+      "id": 1,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f08%2f274963826%2D675063727035864%2D2826472215001750256%2Dn%2D181843%2D080422%2D22.jpg",
+      "tenPhim": "Phù thủy tối thượng",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "pre"
+    },
+    {
+      "id": 2,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f25%2fc9eca49fd5ca14944ddb%2D095645%2D250422%2D83.jpg",
+      "tenPhim": "Nghề siêu dễ",
+      "theLoai": "Hài hước, tình cảm",
+      "phut": "118 phút",
+      "hienTrang": "pre"
+    },
+    {
+      "id": 3,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f26%2ftang%2Dtoc%2Dve%2Dphia%2Dem%2D400x633%2D153237%2D260422%2D32.jpg",
+      "tenPhim": "Tăng tốc về phía em",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "mid"
+    },
+    {
+      "id": 4,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f05%2f13%2f280030797%2D330479312560689%2D60235115370433698%2Dn%2D120909%2D130522%2D22.jpg",
+      "tenPhim": "Rừng săn người",
+      "theLoai": "Hành động, kinh dị",
+      "phut": "91 phút",
+      "hienTrang": "mid"
+    },
+    {
+      "id": 5,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f26%2fan%2Dmang%2Dkinh%2Dhoang%2Dluc%2Dnua%2Ddem%2D400x633%2D145610%2D260422%2D26.jpg",
+      "tenPhim": "Án mạng liên hoàn",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "mid"
+    },
+    {
+      "id": 6,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f26%2fan%2Dmang%2Dkinh%2Dhoang%2Dluc%2Dnua%2Ddem%2D400x633%2D145610%2D260422%2D26.jpg",
+      "tenPhim": "Án mạng liên hoàn",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "after"
+    },
+    {
+      "id": 7,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f26%2fan%2Dmang%2Dkinh%2Dhoang%2Dluc%2Dnua%2Ddem%2D400x633%2D145610%2D260422%2D26.jpg",
+      "tenPhim": "Án mạng liên hoàn",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "after"
+    },
+    {
+      "id": 8,
+      "anh": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/r/s/rsz_1vn-firestarter-poster_1.jpg",
+      "tenPhim": "Người khởi lửa",
+      "theLoai": "Khoa Học Viễn Tưởng",
+      "phut": "95 phút",
+      "hienTrang": "pre"
+    }
+  ],
+  "detailCinema": [
+    {
+      "id": 1,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f08%2f274963826%2D675063727035864%2D2826472215001750256%2Dn%2D181843%2D080422%2D22.jpg",
+      "tenPhim": "Phù thủy tối thượng",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "pre",
+      "daoDien":"SamRami",
+      "quocGia":"Mỹ",
+      "dienVien":"Benedict Cumberbatch, Elizabeth Olsen, Rachel McAdams, Patrick Stewart, Chiwetel Ejiofor, Benedict Wong",
+      "nhaSanXuat":"Marvel Studios",
+      "ngayKhoiChieu":"7/5/2022",
+      "linkTrailer":"<iframe width='100%' height='100%' src='https://www.youtube.com/embed/3xccmeAsy8g' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
+    {
+      "id": 2,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f25%2fc9eca49fd5ca14944ddb%2D095645%2D250422%2D83.jpg",
+      "tenPhim": "Nghề siêu dễ",
+      "theLoai": "Hài hước, tình cảm",
+      "phut": "118 phút",
+      "hienTrang": "pre",
+      "daoDien":"Võ Thanh Hòa",
+      "quocGia":"Việt Nam",
+      "dienVien":"Hứa Vĩ Văn, Thu Trang, Kiều Minh Tuấn, Tiến Luật, Huỳnh Phương, Quang Tuấn, Vũ Ngọc Anh, Thanh Mỹ",
+      "nhaSanXuat":"Hoa Cúc Studios",
+      "ngayKhoiChieu":"29/4/2022",
+      "linkTrailer":"<iframe width='100%' height='100%' src='https://www.youtube.com/embed/odb5t4i3EKs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
+    {
+      "id": 3,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f26%2ftang%2Dtoc%2Dve%2Dphia%2Dem%2D400x633%2D153237%2D260422%2D32.jpg",
+      "tenPhim": "Tăng tốc về phía em",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "mid",
+      "daoDien":"Nawapol Thamrongrattanarit",
+      "quocGia":"Thái Lan",
+      "dienVien":"Nat Kitcharit, Urassaya Sperbund, Anusara Korsamphan, Kanokwan Butrachart, Wipawee Patnasiri, Keetapat Pongruea",
+      "nhaSanXuat":"LaThan Studios",
+      "ngayKhoiChieu":"29/4/2022",
+      "linkTrailer":"<iframe width='100%' height='100%' src='https://www.youtube.com/embed/_DfdCFaBEp0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
+    {
+      "id": 4,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f05%2f13%2f280030797%2D330479312560689%2D60235115370433698%2Dn%2D120909%2D130522%2D22.jpg",
+      "tenPhim": "Rừng săn người",
+      "theLoai": "Hành động, kinh dị",
+      "phut": "91 phút",
+      "hienTrang": "mid",
+      "daoDien":"Mauro Borrelli",
+      "quocGia":"Mỹ",
+      "dienVien":"Mickey Rourke, Jackson Rathbone, Robert Knepper…",
+      "nhaSanXuat":"America Studios",
+      "ngayKhoiChieu":"13/5/2022",
+      "linkTrailer":"<iframe width='100%' height='100%' src='https://www.youtube.com/embed/VCSfP7L00dI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
+    {
+      "id": 5,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f26%2fan%2Dmang%2Dkinh%2Dhoang%2Dluc%2Dnua%2Ddem%2D400x633%2D145610%2D260422%2D26.jpg",
+      "tenPhim": "Án mạng liên hoàn",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "mid",
+      "linkTrailer":"<iframe width='100%'; height='100%' src='https://www.youtube.com/embed/PDq6ww8zEVU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
+    {
+      "id": 6,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f26%2fan%2Dmang%2Dkinh%2Dhoang%2Dluc%2Dnua%2Ddem%2D400x633%2D145610%2D260422%2D26.jpg",
+      "tenPhim": "Án mạng liên hoàn",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "mid",
+      "linkTrailer":"<iframe width='100%'; height='100%' src='https://www.youtube.com/embed/PDq6ww8zEVU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
+    {
+      "id": 7,
+      "anh": "https://files.betacorp.vn/files/media%2fimages%2f2022%2f04%2f26%2fan%2Dmang%2Dkinh%2Dhoang%2Dluc%2Dnua%2Ddem%2D400x633%2D145610%2D260422%2D26.jpg",
+      "tenPhim": "Án mạng liên hoàn",
+      "theLoai": "Hành động, phiêu lưu",
+      "phut": "127 phút",
+      "hienTrang": "mid",
+      "linkTrailer":"<iframe width='100%'; height='100%' src='https://www.youtube.com/embed/PDq6ww8zEVU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
+    {
+      "id": 8,
+      "anh": "https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/r/s/rsz_1vn-firestarter-poster_1.jpg",
+      "tenPhim": "Người khởi lửa",
+      "theLoai": "Khoa Học Viễn Tưởng, Kinh Dị",
+      "phut": "95 phút",
+      "hienTrang": "pre",
+      "daoDien":"Keith Thomas",
+      "quocGia":"Mỹ",
+      "dienVien":"Zac Efron, Ryan Kiera Armstrong, Gloria Reuben",
+      "nhaSanXuat":"America Studios",
+      "ngayKhoiChieu":"13/05/2022",
+      "linkTrailer":"<iframe width='100%' height='100%' src='https://www.youtube.com/embed/2a-qS0Izg8g' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    }
+  ],
+  "ghe":[
+    {
+      "id":1,
+      "soGhe":"A1",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":2,
+      "soGhe":"A2",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":3,
+      "soGhe":"A3",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":4,
+      "soGhe":"A4",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":5,
+      "soGhe":"A5",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":6,
+      "soGhe":"A6",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":7,
+      "soGhe":"A7",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":8,
+      "soGhe":"A8",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":9,
+      "soGhe":"A9",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":10,
+      "soGhe":"A10",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":11,
+      "soGhe":"B1",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":12,
+      "soGhe":"B2",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":13,
+      "soGhe":"B3",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":14,
+      "soGhe":"B4",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":15,
+      "soGhe":"B5",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":16,
+      "soGhe":"B6",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":17,
+      "soGhe":"B7",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":18,
+      "soGhe":"B8",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":19,
+      "soGhe":"B9",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":20,
+      "soGhe":"B10",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":21,
+      "soGhe":"C1",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":22,
+      "soGhe":"C2",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":23,
+      "soGhe":"C3",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":24,
+      "soGhe":"C4",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":25,
+      "soGhe":"C5",
+      "tinhTrang":"khongTrong"
+    },
+    {
+      "id":26,
+      "soGhe":"C6",
+      "tinhTrang":"khongTrong"
+    },
+    {
+      "id":27,
+      "soGhe":"C7",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":28,
+      "soGhe":"C8",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":29,
+      "soGhe":"C9",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":30,
+      "soGhe":"C10",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":31,
+      "soGhe":"D1",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":32,
+      "soGhe":"D2",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":33,
+      "soGhe":"D3",
+      "tinhTrang":"khongTrong"
+    },
+    {
+      "id":34,
+      "soGhe":"D4",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":35,
+      "soGhe":"D5",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":36,
+      "soGhe":"D6",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":37,
+      "soGhe":"D7",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":38,
+      "soGhe":"D8",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":39,
+      "soGhe":"D9",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":40,
+      "soGhe":"D10",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":41,
+      "soGhe":"E1",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":42,
+      "soGhe":"E2",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":43,
+      "soGhe":"E3",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":44,
+      "soGhe":"E4",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":45,
+      "soGhe":"E5",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":46,
+      "soGhe":"E6",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":47,
+      "soGhe":"E7",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":48,
+      "soGhe":"E8",
+      "tinhTrang":"khongTrong"
+    },
+    {
+      "id":49,
+      "soGhe":"E9",
+      "tinhTrang":"trong"
+    },
+    {
+      "id":50,
+      "soGhe":"E10",
+      "tinhTrang":"trong"
+    }
+  ]
+}

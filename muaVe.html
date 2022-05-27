@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mua vé</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Css/muave.css">
+    <link rel="stylesheet" href="./Css/home.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="./index.html">
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div class="logo-navBar"></div>
+                <div class="text-logo">META</div>
+            </div>
+        </a>
+        <div class="select-navBar">
+            <select name="cars" id="cars">
+                <option value="volvo">META BẮC GIANG</option>
+                <option value="saab">META HÀ NỘI</option>
+                <option value="opel">META THÁI NGUYÊN</option>
+                <option value="audi">META BẮC NINH</option>
+              </select>
+        </div>
+        <div class="menu-navBar">
+            <ul>
+                <a href="./lich_chieu_phim.html"><li>LỊCH CHIẾU PHIM THEO RẠP</li></a>
+                <a href="./cinema.html"><li>PHIM</li></a>
+                <a href="./thong_tin_rap.html"><li>RẠP</li></a>
+                <a href="./price.html"><li>GIÁ VÉ</li></a>
+            </ul>
+        </div>
+        <a href="./login.html">
+            <div class="signIn-navBar"><i class="fa-solid fa-user"></i> Login</div>
+        </a>
+    </div>
+    <div class="mua-ve">
+        <div class="ghe-mua-ve">
+            <div class="man-hinh-chieu"></div>
+            <div class="list-ghe"></div>
+            <!-- <div class="kq">ket qua: </div> -->
+        </div>
+        <div class="phim-mua-ve">
+            <div class="row">
+                <div class="tieu-de">
+                    <div class="anh-phim"></div>
+                </div>
+                <div class="du-lieu">
+                    <h2 style="margin-top: 30px; color: #244C95;">Daeng: Hậu Duệ "Tình Người Duyên Ma"</h2>
+                    <h3 style="margin-top: 20px;">2D PHỤ ĐỀ</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="tieu-de" style="text-align: center;">
+                    <p>Thể loại</p>
+                </div>
+                <div class="du-lieu">
+                    <span style="font-weight: bold;">Kinh dị, hài hước</span>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="tieu-de" style="text-align: center;">
+                    <p>Thời lượng</p>
+                </div>
+                <div class="du-lieu">
+                    <span style="font-weight: bold;">96 phút</span>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="tieu-de" style="text-align: center;">
+                    <p>Rạp chiếu</p>
+                </div>
+                <div class="du-lieu">
+                    <span style="font-weight: bold;">Beta Thái Nguyên</span>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="tieu-de" style="text-align: center;">
+                    <p>Ngày chiếu</p>
+                </div>
+                <div class="du-lieu">
+                    <span style="font-weight: bold;">25/05/2022</span>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="tieu-de" style="text-align: center;">
+                    <p>Giờ chiếu</p>
+                </div>
+                <div class="du-lieu">
+                    <span style="font-weight: bold;">12:40</span>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="tieu-de" style="text-align: center;">
+                    <p>Phòng chiếu</p>
+                </div>
+                <div class="du-lieu">
+                    <span style="font-weight: bold;">A2</span>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="tieu-de" style="text-align: center;">
+                    <p>Ghế ngồi</p>
+                </div>
+                <div class="du-lieu" style="float: left;">
+                    <span style="font-weight: bold;width: 50px;height: 100px; overflow: scroll;" class="kq" ></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Js/muaVe.js"></script>
+</body>
+</html>

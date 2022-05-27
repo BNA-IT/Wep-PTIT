@@ -1,0 +1,69 @@
+.ghe{
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    background-image: url("https://www.betacinemas.vn/Assets/global/img/booking/seat-unselect-normal.png");
+    position: relative;
+    z-index: 1;
+    margin-right: 5px;
+}
+.dachon {
+    background-image: url("https://www.betacinemas.vn/Assets/global/img/booking/seat-select-normal.png");
+}
+.khongTrong{
+    background-image: url("https://www.betacinemas.vn/Assets/global/img/booking/seat-buy-normal.png");
+}
+.chinh{
+    position: absolute;
+    left: 30%;
+    bottom: 45%;
+    z-index: 2;
+}
+.list-ghe{
+    /* width: 550px; */
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 0 70px;
+    
+}
+.man-hinh-chieu{
+    background-image: url("https://www.betacinemas.vn/Assets/global/img/booking/ic-screen.png");
+    /* width: 550px; */
+    height: 70px;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+.mua-ve{
+    display: flex;
+    width: 80%;
+    margin:100px auto;
+    justify-content: space-between;
+}
+.phim-mua-ve{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 50px;
+}
+.ghe-mua-ve{
+    width: 60%;
+}
+.tieu-de{
+    width: 48%;
+    /* border: 1px solid red; */
+}
+.anh-phim{
+    background-image: url("https://files.betacorp.vn/files/media/images/2022/05/13/279291444-764418628298529-5275948366137295400-n-173315-130522-76.png");
+    width: 90%;
+    height: 240px;
+    background-size: 100% 100%;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.du-lieu{
+    width: 52%;
+}
+.du-lieu h2{
+    font-size: 23px;
+}
