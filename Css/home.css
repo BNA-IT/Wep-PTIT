@@ -328,3 +328,32 @@ html body{
                      color-stop(0.86, rgb(28,58,148)));
   }
 
+.bang-chon-gio{
+    position: fixed;
+    width: 60%;
+    /* height: 500px; */
+    left: 20%;
+    top: 50%;
+    /* background-color: black; */
+    border: 2px solid black;
+    z-index: 100000;
+    background-color: #ffffff;
+}
+.gio-chieu-menu{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.gio-chieu-menu button{
+    border: none;
+    background-color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 2px solid #B5B0C1;
+}
+.gio-chieu-menu button:hover,
+.gio-chieu-menu button.active {
+	color: #244C95;
+    border-bottom: 5px solid #244C95;
+}

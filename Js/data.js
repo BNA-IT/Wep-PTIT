@@ -2,6 +2,7 @@ async function start(){
     await getAllCinema(rederCinema);
     menuCinema();
     checkIDCinema();
+    gioChieuPhim();
 }
 start();
 async function getAllCinema(callback){
@@ -57,6 +58,29 @@ function menuCinema(){
         })
     })
 }
+function gioChieuPhim(){
+    const cinemaBtns = document.querySelectorAll('.gio-chieu-menu button')
+    // const cinemaList = document.querySelectorAll('.cinema')
+    // console.log(cinemaList);
+    // cinemaBtns.forEach((btn) => {
+    //     btn.addEventListener('click', (e) => {
+    //         const type = e.target.getAttribute('type-cinema')
+
+    //         // remove and set active fpr button
+    //         document
+    //             .querySelector('.cinema-menu button.active')
+    //             .classList.remove('active')
+    //         e.target.classList.add('active')
+
+    //         // filter elements
+    //         cinemaList.forEach((item) => {
+    //             if (type == 'all' || item.getAttribute('type-cinema') == type)
+    //                 item.classList.remove('hide')
+    //             else item.classList.add('hide')
+    //         })
+    //     })
+    // })
+}
 // let son = ["11:00", "15:00", "22:00", "23:55"];
 function rederCinema(cinemas){
     let listCinema = document.querySelector(".cinema-list");
@@ -81,7 +105,7 @@ function rederCinema(cinemas){
                 <h4>${cinema.tenPhim}</h4>
                 <p><span>Thể loại: </span>${cinema.theLoai}</p>
                 <p><span>Thời lượng: </span>${cinema.phut}</p>
-                <button><i class="fa-solid fa-ticket"></i> MUA VÉ</button>
+                <button><i class="fa-solid fa-ticket" class = "muaVe"></i> MUA VÉ</button>
                 
     
                 
