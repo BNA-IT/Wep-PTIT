@@ -170,11 +170,15 @@ html body{
 	border-radius: 20px;
 	/* overflow: hidden; */
     transition: 0.5s;
+    text-overflow: ellipsis;
 }
 .cinema h4{
     font-size: 20px;
     font-weight: bold;
     color: #244C95;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
 }
 .cinema p{
     line-height: 12px;
@@ -407,4 +411,44 @@ html body{
       background-color: rgba(0, 0, 0, 0.7);
       display: none;
       z-index: 5;
+}
+.xin-chao{
+    position: relative;
+    cursor: pointer;
+}
+
+.xin-chao h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.popup-taikhoan{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    background-color: #25487B;
+    border-radius: 5px;
+    top: 50px;
+    right: 138px;
+    display: none;
+    cursor: pointer;
+    z-index: 4;
+}
+.popup-taikhoan .thong-tin{
+    padding-top: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #B5B0C1;
+    padding-bottom: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.popup-taikhoan .dang-xuat{
+    margin-top: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #B5B0C1;
+    padding-bottom: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.show{
+    display: block;
 }

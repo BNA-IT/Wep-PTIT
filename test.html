@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./Css/home.css">
+    <link rel="stylesheet" href="./Css/lichchieu.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -18,14 +18,63 @@
     </style>
 </head>
 <body>
+    <div class="nav-bar">
+        <a href="./index.html">
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div class="logo-navBar"></div>
+                <div class="text-logo">META</div>
+            </div>
+        </a>
+        <div class="select-navBar">
+            <select name="cars" id="cars">
+                <option value="volvo">META BẮC GIANG</option>
+                <option value="saab">META HÀ NỘI</option>
+                <option value="opel">META THÁI NGUYÊN</option>
+                <option value="audi">META BẮC NINH</option>
+              </select>
+        </div>
+        <div class="menu-navBar">
+            <ul>
+                <a href="./lich_chieu_phim.html"><li>LỊCH CHIẾU PHIM THEO RẠP</li></a>
+                <a href="./cinema.html"><li>PHIM</li></a>
+                <a href="./thong_tin_rap.html"><li>RẠP</li></a>
+                <a href="./price.html"><li>GIÁ VÉ</li></a>
+            </ul>
+        </div>
+        <!-- <a href="./login.html">
+            <div class="signIn-navBar"><i class="fa-solid fa-user"></i> Login</div>
+        </a> -->
+        <div class="xin-chao">
+            <h3> Xin chào Hưng</h3>
+        </div>
+        <div class="popup-taikhoan">
+            <div class="thong-tin">Thông tin tài khoản</div>
+            <div class="dang-xuat">Đăng xuất</div>
+        </div>
+    </div>
+    <div class="lop-phu"></div>
     <div class="bang-chon-gio">
+        <div class="ten-phim">
+            <h1>Lịch chiếu - Thế giới khủng long 3: Lãnh Địa</h1>
+        </div>
         <div class="gio-chieu-menu">
-            <button class="active" type-cinema="all">09/06-T5</button>
-            <button type-cinema="pre">10/06-T6</button>
-            <button type-cinema="mid">11/06-T7</button>
-            <button type-cinema="after">12/06-CN</button>
-            <button type-cinema="after">13/06-T2</button>
-            <button type-cinema="after">14/06-T3</button>
+            <div  class="closebtn">&times;</div>
+            <button class="active-gio-chieu" type-gio-chieu="test">09/06-T5</button>
+            <button type-gio-chieu="pre">10/06-T6</button>
+            <button type-gio-chieu="mid">11/06-T7</button>
+            <button type-gio-chieu="after">12/06-CN</button>
+            <button type-gio-chieu="after">13/06-T2</button>
+            <button type-gio-chieu="after">14/06-T3</button>
+        </div>
+        <div class="gio-chieu-list">
+            <div class="gio-chieu hide" type-gio-chieu = "pre">11:00</div>
+            <div class="gio-chieu hide" type-gio-chieu = "mid">12:00</div>
+            <div class="gio-chieu hide" type-gio-chieu = "mid">12:00</div>
+            <div class="gio-chieu hide" type-gio-chieu = "after">13:00</div>
+            <div class="gio-chieu hide" type-gio-chieu = "after">14:00</div>
+            <div class="gio-chieu hide" type-gio-chieu = "after">15:00</div>
+            <div class="gio-chieu hide" type-gio-chieu = "after">16:00</div>
+            <div class="gio-chieu hide" type-gio-chieu = "test">22:22</div>
         </div>
         
     </div>
