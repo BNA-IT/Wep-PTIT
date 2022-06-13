@@ -31,5 +31,5 @@ function data(){
 // console.log(cookieStore.get("cookie1").then(function(data){
 // 	console.log("data: ",data);
 // }))
-sessionStorage.setItem('test', "haha")
+sessionStorage.setItem('test', "hihi")
 		

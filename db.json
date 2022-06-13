@@ -425,5 +425,264 @@
       "soGhe":"E10",
       "tinhTrang":"trong"
     }
+  ],
+  "phim=1&ngay=2022-06-14":[
+    {
+      "idSuatChieu": 1,
+      "ngayChieu": "2022-06-14",
+      "thoiGianBD": "08:00:00 PM",
+      "phim": {
+          "idPhim": 1,
+          "tenPhim": "Phù thủy tối thượng",
+          "thoiLuong": 128,
+          "moTa": "Mô tả phim phù thủy tối thượng",
+          "quocGia": "USA",
+          "anhPhim": "IM1.jpg",
+          "trangThai": 1,
+          "loaiPhim": [
+              "Khoa học viễn tưởng"
+          ]
+      },
+      "phongChieu": {
+          "idPhongChieu": 1,
+          "tenPhong": "Phòng 1",
+          "soLuongGhe": 20,
+          "rap": {
+              "idRap": 1,
+              "tenRap": "Meta Thường Tín",
+              "diaChi": "Thường Tín - Hà Nội",
+              "thongTin": "Thông tin Meta Thường Tín"
+          }
+      }
+    },
+    {
+        "idSuatChieu": 2,
+        "ngayChieu": "2022-06-14",
+        "thoiGianBD": "08:15:00 PM",
+        "phim": {
+            "idPhim": 1,
+            "tenPhim": "Phù thủy tối thượng",
+            "thoiLuong": 128,
+            "moTa": "Mô tả phim phù thủy tối thượng",
+            "quocGia": "USA",
+            "anhPhim": "IM1.jpg",
+            "trangThai": 1,
+            "loaiPhim": [
+                "Khoa học viễn tưởng"
+            ]
+        },
+        "phongChieu": {
+            "idPhongChieu": 2,
+            "tenPhong": "Phòng 2",
+            "soLuongGhe": 30,
+            "rap": {
+                "idRap": 1,
+                "tenRap": "Meta Thường Tín",
+                "diaChi": "Thường Tín - Hà Nội",
+                "thongTin": "Thông tin Meta Thường Tín"
+            }
+        }
+    },
+    {
+        "idSuatChieu": 7,
+        "ngayChieu": "2022-06-14",
+        "thoiGianBD": "11:20:00 PM",
+        "phim": {
+            "idPhim": 1,
+            "tenPhim": "Phù thủy tối thượng",
+            "thoiLuong": 128,
+            "moTa": "Mô tả phim phù thủy tối thượng",
+            "quocGia": "USA",
+            "anhPhim": "IM1.jpg",
+            "trangThai": 1,
+            "loaiPhim": [
+                "Khoa học viễn tưởng"
+            ]
+        },
+        "phongChieu": {
+            "idPhongChieu": 2,
+            "tenPhong": "Phòng 2",
+            "soLuongGhe": 30,
+            "rap": {
+                "idRap": 1,
+                "tenRap": "Meta Thường Tín",
+                "diaChi": "Thường Tín - Hà Nội",
+                "thongTin": "Thông tin Meta Thường Tín"
+            }
+        }
+    }
+  ],
+  "phim=1&ngay=2022-06-15":[
+    {
+      "idSuatChieu": 1,
+      "ngayChieu": "2022-06-15",
+      "thoiGianBD": "1:00",
+      "phim": {
+          "idPhim": 1,
+          "tenPhim": "Phù thủy tối thượng",
+          "thoiLuong": 128,
+          "moTa": "Mô tả phim phù thủy tối thượng",
+          "quocGia": "USA",
+          "anhPhim": "IM1.jpg",
+          "trangThai": 1,
+          "loaiPhim": [
+              "Khoa học viễn tưởng"
+          ]
+      },
+      "phongChieu": {
+          "idPhongChieu": 1,
+          "tenPhong": "Phòng 1",
+          "soLuongGhe": 20,
+          "rap": {
+              "idRap": 1,
+              "tenRap": "Meta Thường Tín",
+              "diaChi": "Thường Tín - Hà Nội",
+              "thongTin": "Thông tin Meta Thường Tín"
+          }
+      }
+    },
+    {
+        "idSuatChieu": 2,
+        "ngayChieu": "2022-06-15",
+        "thoiGianBD": "2:00",
+        "phim": {
+            "idPhim": 1,
+            "tenPhim": "Phù thủy tối thượng",
+            "thoiLuong": 128,
+            "moTa": "Mô tả phim phù thủy tối thượng",
+            "quocGia": "USA",
+            "anhPhim": "IM1.jpg",
+            "trangThai": 1,
+            "loaiPhim": [
+                "Khoa học viễn tưởng"
+            ]
+        },
+        "phongChieu": {
+            "idPhongChieu": 2,
+            "tenPhong": "Phòng 2",
+            "soLuongGhe": 30,
+            "rap": {
+                "idRap": 1,
+                "tenRap": "Meta Thường Tín",
+                "diaChi": "Thường Tín - Hà Nội",
+                "thongTin": "Thông tin Meta Thường Tín"
+            }
+        }
+    },
+    {
+        "idSuatChieu": 7,
+        "ngayChieu": "2022-06-15",
+        "thoiGianBD": "3:00",
+        "phim": {
+            "idPhim": 1,
+            "tenPhim": "Phù thủy tối thượng",
+            "thoiLuong": 128,
+            "moTa": "Mô tả phim phù thủy tối thượng",
+            "quocGia": "USA",
+            "anhPhim": "IM1.jpg",
+            "trangThai": 1,
+            "loaiPhim": [
+                "Khoa học viễn tưởng"
+            ]
+        },
+        "phongChieu": {
+            "idPhongChieu": 2,
+            "tenPhong": "Phòng 2",
+            "soLuongGhe": 30,
+            "rap": {
+                "idRap": 1,
+                "tenRap": "Meta Thường Tín",
+                "diaChi": "Thường Tín - Hà Nội",
+                "thongTin": "Thông tin Meta Thường Tín"
+            }
+        }
+    }
+  ],
+  "phim=1&ngay=2022-06-16":[
+    {
+      "idSuatChieu": 1,
+      "ngayChieu": "2022-06-16",
+      "thoiGianBD": "7:00",
+      "phim": {
+          "idPhim": 1,
+          "tenPhim": "Phù thủy tối thượng",
+          "thoiLuong": 128,
+          "moTa": "Mô tả phim phù thủy tối thượng",
+          "quocGia": "USA",
+          "anhPhim": "IM1.jpg",
+          "trangThai": 1,
+          "loaiPhim": [
+              "Khoa học viễn tưởng"
+          ]
+      },
+      "phongChieu": {
+          "idPhongChieu": 1,
+          "tenPhong": "Phòng 1",
+          "soLuongGhe": 20,
+          "rap": {
+              "idRap": 1,
+              "tenRap": "Meta Thường Tín",
+              "diaChi": "Thường Tín - Hà Nội",
+              "thongTin": "Thông tin Meta Thường Tín"
+          }
+      }
+    },
+    {
+        "idSuatChieu": 2,
+        "ngayChieu": "2022-06-16",
+        "thoiGianBD": "8:00",
+        "phim": {
+            "idPhim": 1,
+            "tenPhim": "Phù thủy tối thượng",
+            "thoiLuong": 128,
+            "moTa": "Mô tả phim phù thủy tối thượng",
+            "quocGia": "USA",
+            "anhPhim": "IM1.jpg",
+            "trangThai": 1,
+            "loaiPhim": [
+                "Khoa học viễn tưởng"
+            ]
+        },
+        "phongChieu": {
+            "idPhongChieu": 2,
+            "tenPhong": "Phòng 2",
+            "soLuongGhe": 30,
+            "rap": {
+                "idRap": 1,
+                "tenRap": "Meta Thường Tín",
+                "diaChi": "Thường Tín - Hà Nội",
+                "thongTin": "Thông tin Meta Thường Tín"
+            }
+        }
+    },
+    {
+        "idSuatChieu": 7,
+        "ngayChieu": "2022-06-16",
+        "thoiGianBD": "9:00",
+        "phim": {
+            "idPhim": 1,
+            "tenPhim": "Phù thủy tối thượng",
+            "thoiLuong": 128,
+            "moTa": "Mô tả phim phù thủy tối thượng",
+            "quocGia": "USA",
+            "anhPhim": "IM1.jpg",
+            "trangThai": 1,
+            "loaiPhim": [
+                "Khoa học viễn tưởng"
+            ]
+        },
+        "phongChieu": {
+            "idPhongChieu": 2,
+            "tenPhong": "Phòng 2",
+            "soLuongGhe": 30,
+            "rap": {
+                "idRap": 1,
+                "tenRap": "Meta Thường Tín",
+                "diaChi": "Thường Tín - Hà Nội",
+                "thongTin": "Thông tin Meta Thường Tín"
+            }
+        }
+    }
   ]
 }
+
